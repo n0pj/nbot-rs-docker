@@ -1,0 +1,3 @@
+[submodule "volumes/home/rust"]
+	path = volumes/home/rust
+	url = git@github.com:n0pj/nbot-rs.git
