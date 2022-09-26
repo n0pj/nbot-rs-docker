@@ -15,5 +15,4 @@ node:
     - 3000:3000
   volumes:
     - ../volumes/www/sukebehub-next:/app:rw
-    - /mnt/ndrive/contents/:/app/public/contents:rw
     - ./services/node/entrypoint.sh:/entrypoint.sh
