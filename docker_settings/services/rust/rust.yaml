@@ -15,4 +15,5 @@ rust:
   # command: bash -c 'useradd -m -u ${USER_ID} docker'
   volumes:
     - ../volumes/home/rust:/code:rw
+    - /mnt/ndrive/contents/:/code/contents/:rw
     - ./services/rust/entrypoint.sh:/entrypoint.sh
