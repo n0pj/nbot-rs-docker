@@ -4,6 +4,7 @@ networks:
     driver: bridge
 services:
   # mysql
+  import: docker_settings/services/nginx/nginx.yaml
   import: docker_settings/services/node/node.yaml
   import: docker_settings/services/mysql/mysql.yaml
   import: docker_settings/services/phpmyadmin/phpmyadmin.yaml
