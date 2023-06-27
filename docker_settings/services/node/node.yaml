@@ -11,8 +11,8 @@ node:
   #   sh -c "/entrypoint.sh"
   networks:
     - network
-  ports:
-    - 3000:3000
+  # ports:
+  #   - 3000:3000
   volumes:
     - ../volumes/www/sukebehub-next:/app:rw
     - ./services/node/entrypoint.sh:/entrypoint.sh

@@ -6,8 +6,8 @@ phpmyadmin:
     - PMA_HOST=mysql
     - PMA_USER=docker
     - PMA_PASSWORD=docker
-  ports:
-    - 8080:80
+  # ports:
+  #   - 8080:80
   volumes:
     - /sessions
   networks:

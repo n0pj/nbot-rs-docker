@@ -1,4 +1,4 @@
-FROM rust:1.63
+FROM rust:1.65
 ARG USER_ID
 RUN apt-get -y update
 
